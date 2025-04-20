@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin:0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color: #433d3d;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 15%;
+}
+.clock{
+    font-size: 1.67em;
+    margin-top: 20%;
+    border: 2px white solid;
+    height: 38px;
+    padding: 6px;
+}
+h1{
+    transition: 0.8s;
+}
+h1:hover{
+    font-size:40px;
+}
